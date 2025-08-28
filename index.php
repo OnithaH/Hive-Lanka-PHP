@@ -1,8 +1,7 @@
-<?php include 'includes/header.php'; ?>
-
-
 <link rel="stylesheet" href="assets/css/home.css">
-
+<link rel="stylesheet" href="assets/css/header.css">
+<link rel="stylesheet" href="assets/css/footer.css">
+<?php include 'includes/header.php'; ?>
 <!-- Main Content -->
 <main class="main-content">
     <!-- Green Action Bar -->

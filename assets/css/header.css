@@ -36,10 +36,27 @@ body {
     gap: 20px;
 }
 
-.logo {
-    height: 110px;
-    width: auto;
+
+
+.header-logo {
+   flex-shrink: 0;
 }
+
+.header-logo-img {
+   height: 110px;
+   width: auto;
+   
+}
+
+.header-logo-img {
+   height: 110px;
+   width: auto;
+   background: url("../images/logo.png") no-repeat center;
+   background-size: contain;
+   display: block;
+}
+
+
 
 /* Language selector with background box */
 .language-selector {
