@@ -347,8 +347,4 @@
 </main>
 
 <script src="assets/js/home.js"></script>
-
-<?php
-// Include footer
-include 'includes/footer.php';
-?>
+<?php include 'includes/footer.php';?>
