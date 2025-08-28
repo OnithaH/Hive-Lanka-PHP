@@ -11,9 +11,8 @@
         <!-- Top row with logo, search, and user controls -->
         <div class="header-top">
             <div class="left-section">
-                <div class="header-logo">
-                    <div class="header-logo-img"></div>
-                </div>
+                <!--<img src="assets/images/logo.png" alt="HIVE G&H Logo" class="logo">-->
+                <div class="logo"></div>
                 
                 <div class="language-selector">
                     <div class="globe-icon"></div>
