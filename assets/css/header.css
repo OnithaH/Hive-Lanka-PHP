@@ -7,7 +7,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color:  #ffffff;
+    background-color: #ffffff;
 }
 
 /* Header container - Updated to accommodate two rows */
@@ -36,27 +36,17 @@ body {
     gap: 20px;
 }
 
-
-
 .header-logo {
-   flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .header-logo-img {
-   height: 110px;
-   width: auto;
-   
+    height: 110px;
+    width: auto;
+    background: url("../images/logo.png") no-repeat center;
+    background-size: contain;
+    display: block;
 }
-
-.header-logo-img {
-   height: 110px;
-   width: auto;
-   background: url("../images/logo.png") no-repeat center;
-   background-size: contain;
-   display: block;
-}
-
-
 
 /* Language selector with background box */
 .language-selector {
@@ -70,6 +60,7 @@ body {
     transition: all 0.2s ease;
     border: 0px solid #e8dcc0;
     margin-left: 20px;
+    position: relative;
 }
 
 .language-selector:hover {
@@ -96,9 +87,6 @@ body {
     height: 12px;
     background: url("../images/icons/down.png") no-repeat center;
     background-size: contain;
-}
-.language-selector {
-    position: relative;
 }
 
 .language-dropdown {
@@ -149,14 +137,6 @@ body {
 .lang-flag {
     font-size: 16px;
 }
-
-
-
-
-
-
-
-
 
 /* Center section - Search */
 .center-section {
@@ -266,7 +246,7 @@ body {
 .cart-icon {
     width: 22px;
     height: 22px;
-    background: url("../images/icons/shopping-cart\ \(1\).png") no-repeat center;
+    background: url("../images/icons/shopping-cart (1).png") no-repeat center;
     background-size: contain;
 }
 
@@ -301,8 +281,6 @@ body {
     color: #333;
 }
 
-
-
 /* Navigation section - NEW */
 .navigation-section {
     display: flex;
@@ -313,10 +291,6 @@ body {
     margin-top: 8px;
     margin-left: 100px;
 }
-
-
-
-
 
 .nav-buttons {
     display: flex;
@@ -345,12 +319,6 @@ body {
     color: #000;
     transform: translateY(-1px);
 }
-
-
-
-
-
-
 
 /* Responsive design */
 @media (max-width: 768px) {
